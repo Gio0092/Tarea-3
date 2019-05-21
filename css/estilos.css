@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Karla');
+
+body{
+	background: url(../img/fondo.jpg);
+}
+
+.body{
+	width: 700px;
+	height: 1500px;
+	margin:auto;
+	background: rgba(0,0,0,.8);
+}
+.head{
+	width: 700px;
+	height: 150px;
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.sub{
+	text-align: center;
+	color: #fff;
+	line-height: 150px;
+	font-family: 'Cardo', serif;
+	
+}
+.title-m{
+	margin:auto;
+	color: #fff;
+	line-height: 75px;
+	text-align: center;
+	font-family: 'Cardo', serif;
+	font-size: 50px;
+
+}
+section{
+	width: 90%;
+	height: 360px;
+
+}
+.colum{
+	width: 49%;
+	height: 360px;
+	padding: 25px;
+	box-sizing: border-box;
+	margin: auto;
+	display: inline-block;
+	float: left;
+
+}
+.tlt{
+	font-size: 18px;
+
+	font-family: 'Cardo', serif;
+}
+.img{
+	width: 80%;
+	margin: 25px 35px;
+}
+.lista1{
+	list-style: none;
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+	font-family: 'Karla', sans-serif;
+}
+span{
+	font-size: 18px;
+	color: #fff;
+	text-align: left;
+	font-family: 'Cardo', serif;
+}
+.lista{
+	font-size: 16px;
+	color: #fff;
+	margin-left: 25px;
+	font-family: 'Karla', sans-serif;
+}
+.plot{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	margin-bottom: 25px;
+	font-family: 'Cardo', serif;
+
+}
+#paragraph{
+	width: 70%;
+	height: 200px;
+	color: #FFF;
+	display: block;
+	text-align: justify;
+	margin: 0  100px 45px 100px;
+	display: block;
+	font-family: 'Karla', sans-serif;
+}
+.video{
+	width: 75%;
+	margin: 0 100px 45px 100px;
+	display: block;
+}
+.comment{
+	width: 70%;
+	margin: auto;
+
+}
+.label{
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	position: relative;
+	font-family: 'Cardo', serif;
+}
+.text{
+	background: rgba(0,0,0,.3);
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 15px; 
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+.btn{
+	width: 100px;
+	margin: 0 200px;
+	border: none;
+	outline: none;
+	background: #111;
+	padding: 15px 10px;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Cardo', serif;
+}
